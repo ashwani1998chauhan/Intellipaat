@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a global box-sizing rule */
+* {
+    box-sizing: border-box;
+}
+
+/* Style the container */
+.navbar-container {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Style the navigation list */
+.navbar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #333;
+    height: 5vh;
+    align-items: center;
+}
+
+/* Style the navigation items */
+.navbar-item {
+    padding: 10px;
+}
+
+/* Style the links */
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Add hover effect on links */
+.navbar-link:hover {
+    color: #61dafb;
+}
+
+/* Add some spacing to the container */
+.container {
+    padding: 20px;
+}

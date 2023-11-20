@@ -1,7 +1,7 @@
 import React from "react";
 const LogIn=()=>{
     return(
-        <div  style={{textAlign:"center"}}>
+        <div style={{textAlign:"center"}}>
             <form>
                 <lebel>Username</lebel><br/>
                 <input type="text"></input><br/>
