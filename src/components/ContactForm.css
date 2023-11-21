@@ -1,0 +1,71 @@
+/* ContactForm.css */
+
+.contact-form-container {
+    text-align: center;
+    padding: 2%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Default text color for labels in light mode */
+  }
+  
+  .form-input {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333;
+  }
+  
+  .form-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode .contact-form-container {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode .form-label {
+    color: #fff; /* Text color for labels in dark mode */
+  }
+  
+  body.dark-mode .form-input {
+    color: #fff; /* Text color for inputs in dark mode */
+  }
+  
+  body.dark-mode .form-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  body.dark-mode .form-button:hover {
+    background-color: #0056b3;
+  }
+  

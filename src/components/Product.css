@@ -1,0 +1,105 @@
+/* Product.css */
+
+.product-container {
+    text-align: center;
+    padding: 2%;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .SearchBar {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .SearchInput {
+    width: 30%; /* Set the width to 30% */
+    padding: 8px; /* Adjust padding as needed */
+    margin-bottom: 10px;
+  }
+  
+  .SearchButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: max-content;
+    display: block;
+    margin: 0 auto; /* Center the button */
+  }
+  
+  .SearchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto; /* Center the table */
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .product-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .product-container.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .product-table.dark-mode th,
+  .product-table.dark-mode td {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .product-table.dark-mode th {
+    background-color: #555; /* Dark background color for table heads in dark mode */
+  }
+  
+  .product-table.dark-mode tbody tr:hover {
+    background-color: #666; /* Dark background color on hover in dark mode */
+  }
+  
+  .product-table.dark-mode td {
+    background-color: white; /* Dark background color for table cells in dark mode */
+  }
+  
+  .product-table tbody tr:hover {
+    background-color: #f5f5f5;
+    color: #333; /* Change the text color on hover */
+  }
+
+  /* ... (other styles) */
+
+.SearchBar {
+    color: #000; /* Default text color for SearchBar */
+  }
+  
+  .product-container.dark-mode .SearchBar {
+    color: #fff; /* Text color for SearchBar in dark mode */
+  }
+  
+  .SearchBar:hover {
+    color: #ffc107; /* Change the text color on hover for SearchBar */
+  }
+  
+  /* ... (other styles) */
+  

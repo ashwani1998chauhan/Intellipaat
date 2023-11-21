@@ -1,0 +1,82 @@
+/* LogIn.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Default background color */
+    color: #333; /* Default font color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark mode */
+  }
+  
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .login-container {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark mode */
+  }
+  
+  .login-container.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark mode */
+  }
+  
+  .login-form.dark-mode {
+    background-color: #444; /* Darker background color for dark mode */
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555; /* Label font color for light mode */
+    transition: color 0.3s; /* Smooth transition for dark mode */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333; /* Input font color for light mode */
+    background-color: #fff; /* Input background color for light mode */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for dark mode */
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight border color on focus */
+  }
+  
+  input.dark-mode {
+    color: #fff; /* Input font color for dark mode */
+    background-color: #555; /* Darker input background color for dark mode */
+  }
+  
+  /* Adjust label color for dark mode */
+  .login-form.dark-mode label {
+    color: #fff;
+  }
+   
